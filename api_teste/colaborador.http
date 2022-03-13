@@ -1,0 +1,34 @@
+##obter list colaborador
+GET http://localhost:3000/colaborador
+Content-Type: application/json
+###
+
+#inserir um novo colaborador
+POST  http://localhost:3000/colaborador
+Content-Type: application/json
+
+{
+    "id":1,
+    "nome":"Mario",
+    "email":"mario@gmail.com",
+    "senha":"mario123"
+}
+###
+
+#alterar colaborador
+PUT http://localhosto:3000/colaborador
+Content-Type: application/json
+
+{
+    "id":,
+    "nome":,
+    "email":,
+    "senha:"
+
+}
+###
+
+#deletando colaborador
+DELETE http://localhost:3000/colaborador
+Content-Type: application/json
+###
